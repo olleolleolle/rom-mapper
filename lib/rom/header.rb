@@ -42,9 +42,9 @@ module ROM
 
     # Coerce array with attribute definitions into a header object
     #
-    # @param [Array<Array>] input attribute name/option pairs
+    # @param [Array<Array>, ROM::Header] input attribute name/option pairs
     #
-    # @param [Class] model optional
+    # @param [Hash] options optional
     #
     # @return [Header]
     #
